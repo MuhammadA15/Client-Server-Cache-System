@@ -6,5 +6,5 @@ Mock client-server program that allows client to send URLs to the server. The se
 To compile the server use "gcc -o server pserver.c"
 To compile the client use "gcc -o client pclient.c"
 
-To run server use "./server <portnumber>"
-To run client use "./client <portnumber>"
+To run server use "./server <portnumber>" 
+  To run client use "./client <portnumber>"
