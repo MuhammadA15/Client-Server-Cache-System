@@ -1,6 +1,5 @@
 # Client-Server-HTTP-Cacher
-Mock client-server program that allows client to send URLs to the server. The server then makes an HTTP GET request over port 80 to the URL sent by the client and if it exists, the HTTP response is cached into a file. The URL is also stored into a cache file which can only hold up to 5 URLs at once. If the client sends a URL and the cache is full, the server will delete the oldest entry and its corresponding HTTP file.
-
+Mock cache system that takes URLs from client and make requests to the URLs on the server. The HTTP responses are stored in files to emulate a cache.
 
 # How-To-Run
 To compile the server use "gcc -o server pserver.c"   
